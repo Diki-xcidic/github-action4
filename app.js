@@ -6,5 +6,3 @@ app.get('/', (req, res) => {
 })
 
 module.exports = app;
-
-// app.listen(3000)

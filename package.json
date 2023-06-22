@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest --watchAll --verbose --silent --runInBand --env node",
+    "test:watch": "jest --watchAll --verbose --silent --runInBand --env node",
+    "test": "jest",
     "start": "node index.js"
   },
 "jest": {
